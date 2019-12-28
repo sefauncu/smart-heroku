@@ -10,6 +10,6 @@ public class HomeController {
     @GetMapping("/home")
     @CrossOrigin(origins = "http://localhost:4200")
     public String hi(){
-        return "Hello Smart Heroku";
+        return "Hi Smart Heroku";
     }
 }
