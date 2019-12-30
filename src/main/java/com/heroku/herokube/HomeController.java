@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public Message hi() {
-        Message message = new Message("Emrah Emrullah Sefa Süleyman");
+        Message message = new Message("by Emrah & Emrullah & Sefa & Süleyman");
         return message;
     }
 }
