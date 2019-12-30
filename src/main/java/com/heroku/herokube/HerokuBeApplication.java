@@ -15,7 +15,7 @@ public class HerokuBeApplication {
 		return new WebMvcConfigurerAdapter() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/home").allowedOrigins("https://heroku-smart.herokuapp.com");
+				registry.addMapping("/home").allowedOrigins("https://heroku-smart-web.herokuapp.com");
 			}
 		};
 	}
