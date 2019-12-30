@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping("/home")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @CrossOrigin(origins = "https://heroku-smart.herokuapp.com/")
     public String hi(){
         return "Hi Smart Heroku";
     }
