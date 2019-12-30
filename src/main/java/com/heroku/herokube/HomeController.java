@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 
     @GetMapping("/home")
-    public Employee hi() {
-        Employee employee = new Employee("ES","ES");
-        return employee;
+    public Message hi() {
+        Message message = new Message("Emrah Emrullah Sefa Süleyman");
+        return message;
     }
 }
