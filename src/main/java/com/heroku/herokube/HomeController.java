@@ -14,7 +14,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public Message hi() {
-        Message message = new Message("bu sefauncu");
+        Message message = new Message("by sefauncu");
 //        homeService.save(message);
         return message;
     }
