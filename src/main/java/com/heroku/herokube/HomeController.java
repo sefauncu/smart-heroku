@@ -14,7 +14,7 @@ public class HomeController {
 
     @GetMapping("/home")
     public Message hi() {
-        Message message = new Message("hi heroku");
+        Message message = new Message("bu sefauncu");
 //        homeService.save(message);
         return message;
     }
